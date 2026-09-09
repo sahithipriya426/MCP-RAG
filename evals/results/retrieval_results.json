@@ -1,0 +1,550 @@
+{
+    "evaluation_config": {
+        "num_queries": 16,
+        "dense_k": 10,
+        "rerank_k": 3
+    },
+    "aggregate_metrics": {
+        "dense_mrr": 1.0,
+        "reranked_mrr": 1.0,
+        "mrr_lift_absolute": 0.0,
+        "mrr_lift_percentage": 0.0,
+        "dense_hit_rate": 1.0,
+        "reranked_hit_rate": 1.0,
+        "dense_mean_cosine_similarity": 0.7727003524704342,
+        "reranked_mean_cosine_similarity": 0.7913164040367631,
+        "average_dense_latency_ms": 98.68362500128569,
+        "average_rerank_latency_ms": 717.6276499885716,
+        "average_total_latency_ms": 816.3112749898573
+    },
+    "per_query_results": [
+        {
+            "query_number": 1,
+            "query": "What are the two improved PINNs proposed for solving Burgers equation?",
+            "ground_truth": [
+                "Improved PINN for Burgers' Equations.pdf"
+            ],
+            "dense_results": [
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf"
+            ],
+            "reranked_results": [
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf"
+            ],
+            "dense_mrr": 1.0,
+            "reranked_mrr": 1.0,
+            "dense_hit_rate": 1.0,
+            "reranked_hit_rate": 1.0,
+            "dense_similarity": 0.8513541950383278,
+            "reranked_similarity": 0.8398192679206368,
+            "dense_latency_ms": 701.8883000127971,
+            "rerank_latency_ms": 787.2227999614552,
+            "total_latency_ms": 1489.1110999742523
+        },
+        {
+            "query_number": 2,
+            "query": "What is the purpose of the time segmentation algorithm in PINNs?",
+            "ground_truth": [
+                "Improved PINN for Burgers' Equations.pdf"
+            ],
+            "dense_results": [
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf"
+            ],
+            "reranked_results": [
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf"
+            ],
+            "dense_mrr": 1.0,
+            "reranked_mrr": 1.0,
+            "dense_hit_rate": 1.0,
+            "reranked_hit_rate": 1.0,
+            "dense_similarity": 0.8388771726784382,
+            "reranked_similarity": 0.8442128333045916,
+            "dense_latency_ms": 70.22090000100434,
+            "rerank_latency_ms": 765.8555000089109,
+            "total_latency_ms": 836.0764000099152
+        },
+        {
+            "query_number": 3,
+            "query": "How does the WENO indicator algorithm improve the PINN solution?",
+            "ground_truth": [
+                "Improved PINN for Burgers' Equations.pdf"
+            ],
+            "dense_results": [
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf"
+            ],
+            "reranked_results": [
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf"
+            ],
+            "dense_mrr": 1.0,
+            "reranked_mrr": 1.0,
+            "dense_hit_rate": 1.0,
+            "reranked_hit_rate": 1.0,
+            "dense_similarity": 0.8503676679527382,
+            "reranked_similarity": 0.8578510674179531,
+            "dense_latency_ms": 56.24169996008277,
+            "rerank_latency_ms": 593.6555999796838,
+            "total_latency_ms": 649.8972999397665
+        },
+        {
+            "query_number": 4,
+            "query": "What are the neural network architecture and training settings used in the PINN implementation?",
+            "ground_truth": [
+                "Improved PINN for Burgers' Equations.pdf"
+            ],
+            "dense_results": [
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\MLBOOK.pdf"
+            ],
+            "reranked_results": [
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf",
+                "./data\\Improved PINN for Burgers' Equations.pdf"
+            ],
+            "dense_mrr": 1.0,
+            "reranked_mrr": 1.0,
+            "dense_hit_rate": 1.0,
+            "reranked_hit_rate": 1.0,
+            "dense_similarity": 0.7736688949734702,
+            "reranked_similarity": 0.7882909447075575,
+            "dense_latency_ms": 104.18440005742013,
+            "rerank_latency_ms": 693.8274999847636,
+            "total_latency_ms": 798.0119000421837
+        },
+        {
+            "query_number": 5,
+            "query": "What are the multiplication and addition rules in combinatorics?",
+            "ground_truth": [
+                "Lecture notes on combinatorics.pdf"
+            ],
+            "dense_results": [
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf"
+            ],
+            "reranked_results": [
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf"
+            ],
+            "dense_mrr": 1.0,
+            "reranked_mrr": 1.0,
+            "dense_hit_rate": 1.0,
+            "reranked_hit_rate": 1.0,
+            "dense_similarity": 0.7836009147901669,
+            "reranked_similarity": 0.7962641396981778,
+            "dense_latency_ms": 43.349700048565865,
+            "rerank_latency_ms": 794.7641999926418,
+            "total_latency_ms": 838.1139000412077
+        },
+        {
+            "query_number": 6,
+            "query": "What is the formula for the number of subsets of size k from a set of size n?",
+            "ground_truth": [
+                "Lecture notes on combinatorics.pdf"
+            ],
+            "dense_results": [
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf"
+            ],
+            "reranked_results": [
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf"
+            ],
+            "dense_mrr": 1.0,
+            "reranked_mrr": 1.0,
+            "dense_hit_rate": 1.0,
+            "reranked_hit_rate": 1.0,
+            "dense_similarity": 0.7711719339561353,
+            "reranked_similarity": 0.8171903774958681,
+            "dense_latency_ms": 65.49660000018775,
+            "rerank_latency_ms": 881.8352000089362,
+            "total_latency_ms": 947.331800009124
+        },
+        {
+            "query_number": 7,
+            "query": "What is the difference between the multiplication rule and addition rule?",
+            "ground_truth": [
+                "Lecture notes on combinatorics.pdf"
+            ],
+            "dense_results": [
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf"
+            ],
+            "reranked_results": [
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf"
+            ],
+            "dense_mrr": 1.0,
+            "reranked_mrr": 1.0,
+            "dense_hit_rate": 1.0,
+            "reranked_hit_rate": 1.0,
+            "dense_similarity": 0.7229761945146438,
+            "reranked_similarity": 0.7539515344815227,
+            "dense_latency_ms": 54.07750001177192,
+            "rerank_latency_ms": 642.9457999765873,
+            "total_latency_ms": 697.0232999883592
+        },
+        {
+            "query_number": 8,
+            "query": "How are permutations and combinations used for counting objects?",
+            "ground_truth": [
+                "Lecture notes on combinatorics.pdf"
+            ],
+            "dense_results": [
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf"
+            ],
+            "reranked_results": [
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf",
+                "./data\\Lecture notes on combinatorics.pdf"
+            ],
+            "dense_mrr": 1.0,
+            "reranked_mrr": 1.0,
+            "dense_hit_rate": 1.0,
+            "reranked_hit_rate": 1.0,
+            "dense_similarity": 0.7759428896210857,
+            "reranked_similarity": 0.7807493413444136,
+            "dense_latency_ms": 35.08910001255572,
+            "rerank_latency_ms": 750.8219999726862,
+            "total_latency_ms": 785.9110999852419
+        },
+        {
+            "query_number": 9,
+            "query": "What are the three entities in the MCP client-server architecture?",
+            "ground_truth": [
+                "mcp-architecture-notes.pdf"
+            ],
+            "dense_results": [
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf"
+            ],
+            "reranked_results": [
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf"
+            ],
+            "dense_mrr": 1.0,
+            "reranked_mrr": 1.0,
+            "dense_hit_rate": 1.0,
+            "reranked_hit_rate": 1.0,
+            "dense_similarity": 0.7669873944390222,
+            "reranked_similarity": 0.7952862737188385,
+            "dense_latency_ms": 65.33199991099536,
+            "rerank_latency_ms": 422.46320005506277,
+            "total_latency_ms": 487.79519996605814
+        },
+        {
+            "query_number": 10,
+            "query": "What is the difference between an MCP Host, Client, and Server?",
+            "ground_truth": [
+                "mcp-architecture-notes.pdf"
+            ],
+            "dense_results": [
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf"
+            ],
+            "reranked_results": [
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf"
+            ],
+            "dense_mrr": 1.0,
+            "reranked_mrr": 1.0,
+            "dense_hit_rate": 1.0,
+            "reranked_hit_rate": 1.0,
+            "dense_similarity": 0.7433889987927473,
+            "reranked_similarity": 0.7593616190909219,
+            "dense_latency_ms": 38.81039994303137,
+            "rerank_latency_ms": 449.84869996551424,
+            "total_latency_ms": 488.6590999085456
+        },
+        {
+            "query_number": 11,
+            "query": "What are the three core primitives provided by an MCP server?",
+            "ground_truth": [
+                "mcp-architecture-notes.pdf"
+            ],
+            "dense_results": [
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf"
+            ],
+            "reranked_results": [
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf"
+            ],
+            "dense_mrr": 1.0,
+            "reranked_mrr": 1.0,
+            "dense_hit_rate": 1.0,
+            "reranked_hit_rate": 1.0,
+            "dense_similarity": 0.7476655234544036,
+            "reranked_similarity": 0.7774883057360654,
+            "dense_latency_ms": 48.4633999876678,
+            "rerank_latency_ms": 488.12090000137687,
+            "total_latency_ms": 536.5842999890447
+        },
+        {
+            "query_number": 12,
+            "query": "How does MCP reduce integration complexity compared with custom function calling?",
+            "ground_truth": [
+                "mcp-architecture-notes.pdf"
+            ],
+            "dense_results": [
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf"
+            ],
+            "reranked_results": [
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf",
+                "./data\\mcp-architecture-notes.pdf"
+            ],
+            "dense_mrr": 1.0,
+            "reranked_mrr": 1.0,
+            "dense_hit_rate": 1.0,
+            "reranked_hit_rate": 1.0,
+            "dense_similarity": 0.6900995727550447,
+            "reranked_similarity": 0.7138776093027251,
+            "dense_latency_ms": 60.4133999440819,
+            "rerank_latency_ms": 887.8751000156626,
+            "total_latency_ms": 948.2884999597445
+        },
+        {
+            "query_number": 13,
+            "query": "What are the different types of learning discussed in machine learning?",
+            "ground_truth": [
+                "MLBOOK.pdf"
+            ],
+            "dense_results": [
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf"
+            ],
+            "reranked_results": [
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf"
+            ],
+            "dense_mrr": 1.0,
+            "reranked_mrr": 1.0,
+            "dense_hit_rate": 1.0,
+            "reranked_hit_rate": 1.0,
+            "dense_similarity": 0.7504733597751894,
+            "reranked_similarity": 0.7765724991748669,
+            "dense_latency_ms": 59.38880005851388,
+            "rerank_latency_ms": 1021.3992999633774,
+            "total_latency_ms": 1080.7881000218913
+        },
+        {
+            "query_number": 14,
+            "query": "What is a threshold logic unit?",
+            "ground_truth": [
+                "MLBOOK.pdf"
+            ],
+            "dense_results": [
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf"
+            ],
+            "reranked_results": [
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf"
+            ],
+            "dense_mrr": 1.0,
+            "reranked_mrr": 1.0,
+            "dense_hit_rate": 1.0,
+            "reranked_hit_rate": 1.0,
+            "dense_similarity": 0.7264238366211703,
+            "reranked_similarity": 0.7741113515205921,
+            "dense_latency_ms": 65.23119995836169,
+            "rerank_latency_ms": 776.3091999804601,
+            "total_latency_ms": 841.5403999388218
+        },
+        {
+            "query_number": 15,
+            "query": "How does backpropagation train a feedforward neural network?",
+            "ground_truth": [
+                "MLBOOK.pdf"
+            ],
+            "dense_results": [
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf"
+            ],
+            "reranked_results": [
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf"
+            ],
+            "dense_mrr": 1.0,
+            "reranked_mrr": 1.0,
+            "dense_hit_rate": 1.0,
+            "reranked_hit_rate": 1.0,
+            "dense_similarity": 0.771441605782596,
+            "reranked_similarity": 0.773785058513683,
+            "dense_latency_ms": 56.23700004070997,
+            "rerank_latency_ms": 816.0359999164939,
+            "total_latency_ms": 872.2729999572039
+        },
+        {
+            "query_number": 16,
+            "query": "What are decision trees and how are they evaluated?",
+            "ground_truth": [
+                "MLBOOK.pdf"
+            ],
+            "dense_results": [
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf"
+            ],
+            "reranked_results": [
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf",
+                "./data\\MLBOOK.pdf"
+            ],
+            "dense_mrr": 1.0,
+            "reranked_mrr": 1.0,
+            "dense_hit_rate": 1.0,
+            "reranked_hit_rate": 1.0,
+            "dense_similarity": 0.798765484381768,
+            "reranked_similarity": 0.8122502411597955,
+            "dense_latency_ms": 54.513600072823465,
+            "rerank_latency_ms": 709.0614000335336,
+            "total_latency_ms": 763.575000106357
+        }
+    ]
+}

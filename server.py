@@ -83,10 +83,6 @@ def list_available_documents() -> list[str]:
 
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 7860))
-
-    mcp.run(
-        transport="sse",
-        host="0.0.0.0",
-        port=port
-    )
+    # Utilizing secure STDIO transport for zero-network overhead 
+    # local communication with Claude Desktop / Cursor / Inspector
+    mcp.run(transport="stdio")
